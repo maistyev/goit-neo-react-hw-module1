@@ -1,0 +1,53 @@
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description > img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.description > p {
+  color: #838282;
+}
+
+.stats {
+  margin-top: 10px;
+  border-top: 2px solid #838282;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #b9b9b9;
+}
+
+.stats > li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats > li:nth-child(2) {
+  border-left: 2px solid #838282;
+  border-right: 2px solid #838282;
+}
+
+.statsValue {
+  font-weight: bold;
+  color: black;
+}
